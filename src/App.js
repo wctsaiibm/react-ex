@@ -17,6 +17,8 @@ function App() {
             </p>
           </Tab>
         </Tabs>
+      </header>
+      <footer className="App-footer">
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -25,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
