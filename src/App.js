@@ -4,15 +4,14 @@ import './App.css';
 import { Tabs, Tab } from 'react-bootstrap';
 
 function App() {
-  // TODO: move tab line to top
   return (
     <div className="App">
       <header className="App-header">
-        <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
-          <Tab eventKey="home" title="Home">
+        <Tabs defaultActiveKey="1" id="uncontrolled-tab-example"  style={ {height: '100%', width: '100%'} }>
+          <Tab eventKey="home" title="Home" style={ {height: '100%', width: '100%'} } >
             <img src={logo} className="App-logo" alt="logo" />
           </Tab>
-          <Tab eventKey="1" title="1">
+          <Tab eventKey="1" title="1"  style={ {height: '100%', width: '100%'} }>
             <p>
               Edit <code>src/App.js</code> and save to reload.
             </p>
